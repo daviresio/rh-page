@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,500,700&display=swap');
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  font-family: inherit;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 400;
+  line-height: 1.7;
+  color: $color-black;
+  background-color: $color-body;
+  //overflow-x: hidden;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.blur {
+  filter: blur(.5rem);
+}
+

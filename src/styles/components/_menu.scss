@@ -1,0 +1,177 @@
+.item-menu-container {
+  width: 12rem;
+  height: 12rem;
+  display: inline-block;
+  margin: 0 2rem;
+
+
+}
+
+
+.item-menu {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  background-color: $color-primary-very-light;
+  cursor: pointer;
+  margin: auto;
+  transition: all .8s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+
+  canvas {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+  }
+
+  &:hover {
+    width: 11rem;
+    height: 11rem;
+    transition: all .6s;
+  }
+
+  i {
+    font-size: 4rem;
+    color: $color-white;
+  }
+
+}
+
+.item-menu-active {
+  width: 11rem;
+  height: 11rem;
+  background-color: $color-primary-light;
+  transition: all .6s;
+}
+
+.menu {
+  height: 13rem;
+  display: flex;
+  align-items: center;
+}
+
+.separador-menu {
+  width: 10rem;
+  height: 0;
+  border-bottom: .2rem dotted $color-primary-light;
+  position: relative;
+  top: 1rem;
+
+
+  &-transition-next {
+    &:before {
+      content: '';
+      position: absolute;
+      bottom: -.2rem;
+      width: .8rem;
+      height: .2rem;
+      margin-top: .2rem;
+      background-color: $color-primary;
+      animation: next .8s ease-in;
+      opacity: 0;
+    }
+  }
+
+  &-transition-back {
+    &:before {
+      content: '';
+      position: absolute;
+      bottom: -.2rem;
+      width: .8rem;
+      height: .2rem;
+      margin-top: .2rem;
+      background-color: $color-primary;
+      animation: back .8s ease-in;
+      opacity: 0;
+    }
+  }
+
+}
+
+
+.menu-content {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 5rem;
+
+    .corpo {
+
+      .title {
+        font-weight: $font-weigth-normal;
+        font-size: 2.8rem;
+      }
+
+      .subtitle {
+        font-size: 1.8rem;
+        font-weight: $font-weigth-light;
+      }
+
+      .content {
+        font-size: 1.4rem;
+        font-weight: $font-weigth-light;
+        margin: 3rem 0rem;
+      }
+
+    }
+
+  }
+
+  img {
+    max-width: 80%;
+    height: auto;
+    box-shadow: 0 0 3rem .5rem rgba($color-black, .6);
+  }
+}
+
+
+@keyframes next {
+  0% {
+    left: 0;
+    opacity: 0;
+  }
+
+  1% {
+    opacity: 1;
+  }
+
+  99% {
+    opacity: 1;
+  }
+
+  100% {
+    left: 10rem;
+    opacity: 0;
+  }
+}
+
+@keyframes back {
+  0% {
+    right: 0;
+    opacity: 0;
+  }
+
+  1% {
+    opacity: 1;
+  }
+
+  99% {
+    opacity: 1;
+  }
+
+  100% {
+    right: 10rem;
+    opacity: 0;
+  }
+}

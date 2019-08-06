@@ -1,0 +1,125 @@
+.modal-container {
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  position: fixed;
+  z-index: 5;
+  background-color: rgba($color-blue-dark, .6);
+  transition: all .5s;
+}
+
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: .5rem;
+  background-color: #FBFBFC;
+  padding: 2rem 4rem;
+  width: 45rem;
+  box-shadow: 0 0 5rem .5rem rgba(0, 0, 0, 0.75);
+  transition: all .5s;
+  z-index: 6;
+
+
+
+  form {
+    display: grid;
+    grid-gap: 1.5rem;
+
+    .options {
+      display: grid;
+      grid-gap: 1rem;
+    }
+  }
+
+  .header {
+    display: flex;
+    position: relative;
+
+    .testar {
+      text-align: center;
+      flex-grow: 1;
+      font-size: 2rem;
+    }
+
+    .close {
+      width: 3rem;
+      height: 3rem;
+      border-radius: 50%;
+      border: .1rem solid rgba($color-gray, .5);
+      cursor: pointer;
+      position: relative;
+      transition: all .3s;
+
+      i {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 1.3rem;
+        color: rgba(81, 81, 81, 0.71);
+      }
+
+      &:hover {
+        border: .1rem solid $color-blue-light;
+        box-shadow: 0 0 .3rem $color-blue;
+        transition: all .3s;
+        i {
+          color: $color-black;
+        }
+      }
+    }
+
+    &::after {
+      content: '';
+      width: 10rem;
+      height: .6rem;
+      border-radius: 1rem;
+      background: linear-gradient(to right, $color-blue-light, $color-blue-dark);
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      bottom: -.8rem;
+    }
+  }
+
+  .subtitle {
+    font-weight: $font-weigth-normal;
+    text-align: center;
+    margin: 1.5rem 5rem;
+  }
+
+
+  .footer {
+    display: flex;
+    justify-content: space-between;
+
+
+    .usuario-modal-option {
+      font-size: 1.2rem;
+      margin-right: 1rem;
+
+      .usuario, .entrar {
+        display: block;
+      }
+
+      .entrar {
+        font-weight: $font-weigth-bold;
+        padding: .3rem;
+        cursor: pointer;
+      }
+
+    }
+  }
+
+  &-escondido {
+    transform: scale(.6);
+    transition: all .5s;
+    pointer-events: none;
+    opacity: 0;
+    transform-origin: 0 0;
+  }
+
+}

@@ -1,0 +1,31 @@
+.button {
+  padding: 2rem 6rem;
+  border-radius: 10rem;
+  border: none;
+  outline: none;
+  user-select: none;
+
+  &-disabled {
+    background-color: rgba($color-gray, .6);
+    color: $color-gray-dark;
+  }
+
+  &-active {
+    cursor: pointer;
+    background: linear-gradient(to right, rgba($color-blue-light, .9), rgba($color-blue-dark, .9));
+    color: $color-white;
+    transition: all .5s;
+
+    &:hover {
+      box-shadow: 0 0 2rem $color-blue-dark;
+      transition: all .5s;
+    }
+
+    &:active {
+      background: linear-gradient(to right, $color-blue-light, $color-blue-dark);
+      transition: all .5s;
+    }
+
+  }
+
+}

@@ -1,0 +1,138 @@
+@import url("https://use.fontawesome.com/releases/v5.8.1/css/all.css");
+
+
+.input-container {
+  position: relative;
+
+  label {
+    position: absolute;
+    top: 30%;
+    left: 2rem;
+    font-size: 1.5rem;
+    font-weight: $font-weigth-light;
+    color: rgba(81, 81, 81, 0.71);
+    pointer-events: none;
+    transition: all .3s;
+  }
+  .active {
+    top: .5rem;
+    font-size: 1.2rem;
+    transition: all .3s;
+  }
+
+  .input {
+    outline: none;
+    border-radius: .5rem;
+    padding: 2.5rem 2rem 1rem 2rem;
+    width: 100%;
+
+    &:focus + label {
+      top: .5rem;
+      font-size: 1.2rem;
+      transition: all .3s;
+    }
+
+  }
+
+  .input-no-error {
+    border: .1rem solid rgba($color-gray, .5);
+    &:focus {
+      border: .1rem solid $color-blue;
+      box-shadow: 0 0 .5rem $color-blue-dark;
+    }
+  }
+
+  .input-erro {
+    background-color: #F6DDE6;
+    border: .1rem solid rgba(229, 129, 170, 0.65);
+
+    &:focus {
+      box-shadow: 0 0 .5rem #E581AA;
+    }
+  }
+
+  .label-erro {
+    color: #E581AA;
+  }
+
+}
+
+
+
+
+.checkbox-container {
+  display: flex;
+  align-items: center;
+
+  input[type=checkbox] {
+    display: none;
+
+    &:checked ~ .checkbox {
+      background-color: #3BDEAC;
+      border: .1rem solid #3BDEAC;
+      box-shadow: 0 0 .3rem #3BDEAC;
+      transition: all .3s;
+
+      &::before {
+        display: inline-block;
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+        content: '\f00c';
+        color: $color-white;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        transition: all .3s;
+      }
+
+    }
+  }
+
+  .checkbox {
+    display: inline-block;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    background-color: $color-white;
+    border: .1rem solid rgba($color-gray, .5);
+    cursor: pointer;
+    margin-right: 1rem;
+    transition: all .3s;
+    position: relative;
+
+    &:hover {
+      border: .1rem solid #3BDEAC;
+      box-shadow: 0 0 .3rem #3BDEAC;
+      transition: all .3s;
+
+
+      &::before {
+        display: inline-block;
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+        content: '\f00c';
+        color: #3BDEAC;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        transition: all .3s;
+      }
+    }
+
+  }
+
+  .label {
+    font-size: 1.3rem;
+    cursor: pointer;
+    user-select: none;
+  }
+
+  .label-action {
+    font-weight: $font-weigth-bold;
+    border-bottom: .1rem rgba(0, 0, 0, 0.64) dotted;
+    padding-bottom: .3rem;
+  }
+
+}

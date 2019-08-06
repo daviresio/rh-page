@@ -1,0 +1,120 @@
+header {
+  height: 7rem;
+  border-bottom: $color-gray-light;
+  display: flex;
+  background-color: $color-white;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 15rem;
+
+  .title {
+    font-size: 2rem;
+    color: $color-blue-dark;
+    font-weight: $font-weigth-bold;
+    cursor: pointer;
+  }
+
+  .opcoes {
+    display: flex;
+    align-items: center;
+
+    button {
+      font-family: inherit;
+      outline: none;
+      background-color: transparent;
+      border: none;
+      padding: 0 3rem;
+      cursor: pointer;
+      font-size: 1.4rem;
+      height: 3.5rem;
+      border-radius: .3rem;
+      transition: all .3s;
+    }
+
+    .experimente-gratis {
+      background-color: $color-green-light;
+      color: $color-white;
+
+      &:hover {
+        background-color: $color-green;
+        transition: all .3s;
+      }
+      animation: balancar-botao linear 10s infinite;
+    }
+
+    .solicite-demonstracao {
+      margin: 0 2rem;
+      color: #565656;
+      border: .1rem solid rgba(86, 86, 86, 0.56);
+
+      &:hover {
+
+      }
+
+    }
+
+    .entrar {
+      height: 100%;
+      padding: 2rem;
+      font-size: 1.6rem;
+      cursor: pointer;
+      color: $color-blue-dark;
+      transition: all .3s;
+
+      &:hover {
+        background-color: $color-gray-light;
+        transition: all .3s;
+      }
+    }
+
+  }
+}
+
+
+@keyframes balancar-botao {
+  $translateRight: .3rem;
+  $translateLeft: -.3rem;
+  $rotateRight: 1.8deg;
+  $rotateLeft: -1.8deg;
+
+  7% {
+    transform: rotateZ(0deg) translateX(0);
+  }
+
+  8% {
+    transform: rotateZ($rotateRight) translateX($translateRight);
+  }
+
+  10% {
+    transform: rotateZ($rotateLeft) translateX($translateLeft);
+  }
+
+  12% {
+    transform: rotateZ($rotateRight) translateX($translateRight);
+  }
+
+  14% {
+    transform: rotateZ($rotateLeft) translateX($translateLeft);
+  }
+
+  16% {
+    transform: rotateZ($rotateRight) translateX($translateRight);
+  }
+
+  18% {
+    transform: rotateZ($rotateLeft) translateX($translateLeft);
+  }
+
+  20% {
+    transform: rotateZ($rotateRight) translateX($translateRight);
+  }
+
+  22% {
+    transform: rotateZ($rotateLeft) translateX($translateLeft);
+  }
+
+  23% {
+    transform: rotateZ(0deg) translateX(0);
+  }
+
+}
