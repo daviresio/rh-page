@@ -85,6 +85,10 @@
 }
 
 
-.section-detail-product {
-background-color: $color-white;
+.section-menu {
+  background-color: $color-white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }

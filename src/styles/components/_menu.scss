@@ -61,7 +61,6 @@
   height: 0;
   border-bottom: .2rem dotted $color-primary-light;
   position: relative;
-  top: 1rem;
 
 
   &-transition-next {
@@ -98,6 +97,7 @@
 .menu-content {
   display: grid;
   grid-template-columns: 1fr 1.5fr;
+  margin-top: 5rem;
 
   .container {
     display: flex;
@@ -121,7 +121,7 @@
       .content {
         font-size: 1.4rem;
         font-weight: $font-weigth-light;
-        margin: 3rem 0rem;
+        margin: 3rem 0;
       }
 
     }
@@ -129,7 +129,7 @@
   }
 
   img {
-    max-width: 80%;
+    max-width: 85%;
     height: auto;
     box-shadow: 0 0 3rem .5rem rgba($color-black, .6);
   }

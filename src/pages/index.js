@@ -30,7 +30,7 @@ const IndexPage = () => (
       </div>
     </section>
 
-    <section className={"section-detail-product"}>
+    <section className={"section-menu"}>
       <h1 className={"title"}>Soluções em RH integradas para suas necessidades</h1>
       <Menu>
 
