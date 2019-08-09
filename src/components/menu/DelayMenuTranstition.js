@@ -1,21 +1,34 @@
-import React, { Component, useEffect, useState } from "react"
+import React from "react"
 
-export default Component => props => {
+const transtitionDelay = OriginalComponent => {
 
-  const [isMounted, setIsMounted] = useState(false)
+  class WrapperComponent extends React.Component {
 
-  useEffect(() => {
+    constructor(props) {
+      super(props)
 
-    if (!isMounted && props.isMounted) {
-      setTimeout(() => {
-        setIsMounted(true)
-      }, props.delayTime)
-    } else if (isMounted && !props.isMounted) {
-      console.log("entrei", isMounted, props.isMounted)
-      setTimeout(() => {
-        setIsMounted(false)
-      }, props.delayTime)
+      this.state = {
+        isMounted: props.isMounted,
+        desapear: false,
+      }
     }
-  })
-  return isMounted ? <Component {...props} /> : null
+
+    componentWillReceiveProps(nextProps) {
+      console.log(this.state, nextProps)
+      if (this.state.isMounted && !nextProps.isMounted) {
+        setTimeout(() => this.setState({ isMounted: false, desapear: true}), 3000)
+      }
+    }
+
+    render() {
+      return (
+        this.state.isMounted ? <OriginalComponent {...{...this.props, desapear: this.state.desapear}} /> : null
+      )
+    }
+
+  }
+
+  return WrapperComponent
 }
+
+export default transtitionDelay

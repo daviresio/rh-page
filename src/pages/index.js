@@ -2,8 +2,9 @@ import React from "react"
 
 import Layout from "../layout/layout"
 import SEO from "../layout/SEO"
-import ItemMenu from "../components/menu/ItemMenu"
 import Menu from "../components/menu/Menu"
+import ClickCounter from "../temp/ClickCounter"
+import HoverCounter from "../temp/HoverCounter"
 
 
 const IndexPage = () => (
@@ -30,8 +31,11 @@ const IndexPage = () => (
       </div>
     </section>
 
+    <HoverCounter />
+    <ClickCounter />
+
     <section className={"section-menu"}>
-      <h1 className={"title"}>Soluções em RH integradas para suas necessidades</h1>
+      <h1 className={"title"}>Soluções em RH integradas</h1>
       <Menu>
 
       </Menu>

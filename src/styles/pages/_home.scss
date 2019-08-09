@@ -91,4 +91,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  .title {
+    font-size: 3.5rem;
+    color: rgba($color-black, .5);
+    margin-bottom: 7rem;
+  }
+
 }

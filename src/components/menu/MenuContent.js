@@ -1,6 +1,7 @@
-import React from "react"
+import React  from "react"
 
 const MenuContent = ({ title, subtitle, content, img }) => {
+
   return (
     <div className={"menu-content"}>
       <div className={"container"}>
