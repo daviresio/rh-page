@@ -1,4 +1,4 @@
-import { Link } from "gatsby"
+import {navigate} from 'gatsby'
 import PropTypes from "prop-types"
 import React from "react"
 import { connect } from "react-redux"
@@ -14,7 +14,7 @@ const Header = ({ siteTitle, modal, changeModalVisibility }) => {
       <div className={'opcoes'}>
         <button className={'experimente-gratis'} onClick={()=> changeModalVisibility('cadastro', true)}>Experimente Gratis</button>
         <button className={'solicite-demonstracao'}>Solicitar Demonstracao</button>
-        <div className={'entrar'}>Entrar</div>
+        <div className={'entrar'} onClick={()=> navigate('/login')}>Entrar</div>
       </div>
     </header>
   )

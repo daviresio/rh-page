@@ -1,9 +1,15 @@
-import React  from "react"
+import React from "react"
+import DelayMenuTranstition from "./DelayMenuTranstition"
 
-const MenuContent = ({ title, subtitle, content, img }) => {
+const MenuContent = ({ title, subtitle, content, img, hide, show }) => {
+
+  let cssClasses = "menu-content"
+  if (hide) cssClasses = cssClasses + " menu-content-hide"
+  if (show) cssClasses = cssClasses + " menu-content-show"
+
 
   return (
-    <div className={"menu-content"}>
+    <div className={cssClasses}>
       <div className={"container"}>
         <div className={"corpo"}>
           <h1 className={"title"}>{title}</h1>
@@ -12,10 +18,9 @@ const MenuContent = ({ title, subtitle, content, img }) => {
           <button className={"button button-active"}>Teste gratis</button>
         </div>
       </div>
-
-      <img src={img}/>
+        <img src={img}/>
     </div>
   )
 }
 
-export default MenuContent
+export default DelayMenuTranstition(MenuContent)

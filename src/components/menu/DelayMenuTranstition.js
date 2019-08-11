@@ -1,34 +1,35 @@
-import React from "react"
+import React, { useEffect, useState } from "react"
 
 const transtitionDelay = OriginalComponent => {
 
-  class WrapperComponent extends React.Component {
+  return ({ isMounted, ...props }) => {
 
-    constructor(props) {
-      super(props)
+    const [isActive, setActive] = useState(false)
+    const [hide, setHide] = useState(false)
+    const [show, setShow] = useState(false)
 
-      this.state = {
-        isMounted: props.isMounted,
-        desapear: false,
+    useEffect(() => {
+      if (isActive && !isMounted) {
+        setHide(true)
+        setShow(false)
+        setTimeout(() => setActive(!isActive), 700)
+      } else if(!isActive && isMounted) {
+        setTimeout(() => {
+          setActive(!isActive)
+          setShow(true)
+          setHide(false)
+        }, 700)
       }
-    }
+    }, [isMounted])
 
-    componentWillReceiveProps(nextProps) {
-      console.log(this.state, nextProps)
-      if (this.state.isMounted && !nextProps.isMounted) {
-        setTimeout(() => this.setState({ isMounted: false, desapear: true}), 3000)
-      }
-    }
 
-    render() {
-      return (
-        this.state.isMounted ? <OriginalComponent {...{...this.props, desapear: this.state.desapear}} /> : null
-      )
-    }
+    return (
+      isActive ? <OriginalComponent {...{ ...props, hide, show }}  /> : null
+    )
 
   }
 
-  return WrapperComponent
+
 }
 
 export default transtitionDelay

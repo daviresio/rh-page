@@ -14,6 +14,7 @@ import "../styles/index.scss"
 import Modais from "../layout/Modais"
 import { connect, Provider } from "react-redux"
 import PageContent from "./PageContent"
+import Footer from "./Footer"
 
 const Layout = ({ children }) => {
 
@@ -29,19 +30,15 @@ const Layout = ({ children }) => {
       }
     `}
       render={data => (
-        <Provider store={store}>
+        <>
           <Header siteTitle={data.site.siteMetadata.title} />
           <Modais/>
           <PageContent>
             {children}
           </PageContent>
-          <footer>
-            © {new Date().getFullYear()}, Built with
-            {` `}
-            <a href="https://www.gatsbyjs.org">Gatsby</a>
-          </footer>
+         <Footer/>
 
-        </Provider>
+        </>
       )}
     />
   )

@@ -1,0 +1,123 @@
+.page-login {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+
+  .header {
+
+    .title {
+        font-size: 2.5rem;
+        color: $color-blue-dark;
+        font-weight: $font-weigth-bold;
+        cursor: pointer;
+      margin: 3rem 6rem;
+    }
+  }
+
+  .content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    height: 70%;
+    border-radius: .5rem;
+    background-color: $color-white;
+    box-shadow: 0 0 5rem -2rem rgba($color-black, .6);
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    overflow: hidden;
+
+    .formulario {
+      padding: 6rem;
+
+      .title {
+        text-align: center;
+        font-size: 2rem;
+        font-weight: $font-weigth-bold;
+        position: relative;
+
+        &::after {
+          content: '';
+          width: 8rem;
+          height: .6rem;
+          border-radius: 1rem;
+          background: linear-gradient(to right, $color-blue-light, $color-blue-dark);
+          position: absolute;
+          left: 50%;
+          transform: translateX(-50%);
+          bottom: -.8rem;
+        }
+      }
+
+      form {
+        display: grid;
+        grid-gap: 2rem;
+        margin-top: 5rem;
+
+        .esqueceu-senha {
+          font-weight: $font-weigth-bold;
+          font-size: 1.3rem;
+          width: 100%;
+          text-align: center;
+          margin: 2rem 0;
+          cursor: pointer;
+        }
+
+        button {
+          width: 70%;
+          margin: 0 auto;
+        }
+
+      }
+
+    }
+
+    .boas-vindas {
+      background: url("../assets/images/sidebar-bg.svg"), #2798ff;
+      color: $color-white;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+
+      .title {
+        font-size: 2.5rem;
+        font-weight: $font-weigth-bold;
+        margin: 2rem 0;
+      }
+
+      .conteudo {
+        font-size: 1.4rem;
+        text-align: center;
+        margin: 0 3rem;
+      }
+
+    }
+
+  }
+
+  .footer {
+    position: absolute;
+    bottom: 3rem;
+    left: 3rem;
+
+    .links {
+      span {
+        font-weight: $font-weigth-bold;
+        font-size: $font-size-1;
+        color: rgba($color-black, .6);
+        cursor: pointer;
+        margin-right: 1rem;
+      }
+    }
+
+    .descricao {
+      font-size: 1.2rem;
+      font-weight: $font-weigth-light;
+    }
+
+  }
+
+}
