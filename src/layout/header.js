@@ -13,7 +13,7 @@ const Header = ({ siteTitle, modal, changeModalVisibility }) => {
       <div className={'title'}>Rh Inteligente</div>
       <div className={'opcoes'}>
         <button className={'experimente-gratis'} onClick={()=> changeModalVisibility('cadastro', true)}>Experimente Gratis</button>
-        <button className={'solicite-demonstracao'}>Solicitar Demonstracao</button>
+        <button className={'solicite-demonstracao'} onClick={()=> changeModalVisibility('demonstracao', true)}>Solicitar Demonstracao</button>
         <div className={'entrar'} onClick={()=> navigate('/login')}>Entrar</div>
       </div>
     </header>

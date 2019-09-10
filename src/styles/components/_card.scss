@@ -1,0 +1,40 @@
+.small-card {
+  overflow: hidden;
+  box-shadow: 0 0 4rem -1.8rem rgba(0, 0, 0, 0.75);
+  background-color: $color-white;
+  height: 13rem;
+  border-radius: .6rem;
+  cursor: pointer;
+  transition: all .6s;
+  display: flex;
+  align-items: center;
+
+  img {
+    position: relative;
+    left: -5.3rem;
+    top: 0;
+  }
+
+  &:hover {
+    transform: translateY(-.5rem);
+    transition: all .6s;
+    box-shadow: 0 1rem 4rem -1.4rem rgba(0, 0, 0, 0.75);
+  }
+
+  .text-container {
+  margin-left: -2rem;
+
+  .title {
+    color: $color-blue;
+    font-size: 2.6rem;
+    font-weight: lighter;
+  }
+
+  .subtitle {
+    font-weight: lighter;
+    font-size: 1.6rem;
+  }
+
+  }
+
+}

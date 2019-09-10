@@ -2,6 +2,7 @@ import { CHANGE_MODAL_VISIBILITY } from "../actions/action-types"
 
 const INITIAL_STATE = {
   cadastro: false,
+  demonstracao: false,
 }
 
 export default (state = INITIAL_STATE, action) => {

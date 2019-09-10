@@ -39,7 +39,7 @@ const SEO = ({ pageTitle, description, keywords, meta }) => {
                              {property: 'og:image:height', content: '1365'},
                            ].concat(meta)}
                  >
-                     <script src="https://kit.fontawesome.com/4359434c56.js" />
+                     {/*<script src="https://kit.fontawesome.com/4359434c56.js" />*/}
                    </Helmet>
                  }/>
   )

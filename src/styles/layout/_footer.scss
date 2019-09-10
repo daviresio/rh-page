@@ -1,26 +1,135 @@
 footer {
   background-color: $color-white;
+  padding-top: 10rem;
+  padding-bottom: 6rem;
+
   .menu {
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-columns: repeat(4, 1fr);
+
 
     .redes-sociais {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-end;
+      padding-left: 3rem;
+
+      .logo {
+        font-size: 2rem;
+        color: #15487d;
+        font-weight: $font-weigth-bold;
+      }
+
+      .icones {
+        display: flex;
+        margin-top: 1.5rem;
+
+        i {
+          margin-right: 2rem;
+          font-size: 2rem;
+          color: rgba($color-blue, .8);
+          cursor: pointer;
+
+          &:hover {
+            color: $color-blue-dark;
+          }
+
+        }
+
+      }
 
     }
+
+    .contato, .produtos, .community {
+      display: flex;
+      flex-direction: column;
+
+      .title {
+        font-size: 1.5rem;
+        margin-bottom: 2rem;
+        color: #15487d;
+        font-weight: $font-weigth-light;
+
+      }
+
+      .item, .group {
+        font-size: 1.2rem;
+        margin-bottom: .8rem;
+        color: rgba($color-blue-dark, .8);
+        cursor: pointer;
+
+        &:hover {
+          color: $color-blue-dark;
+        }
+
+      }
+
+      .group {
+        i {
+          margin-right: 1rem;
+        }
+
+      }
+
+    }
+
 
     .contato {
+      .group {
+        i {
+          color: rgba(#F6CA6A, .8);
 
-    }
+          &:hover {
+            color: #F6CA6A;
+          }
+        }
+      }
 
-    .produtos {
+      .group:last-child {
+        i {
+          color: rgba($color-red, .8);
 
-    }
+          &:hover {
+            color: $color-red;
+          }
+        }
+      }
 
-    .community {
 
     }
 
   }
 
-  .endereco {
+  .bottom {
+    margin-top: 12rem;
+    font-size: 1.3rem;
+    font-weight: $font-weigth-light;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .endereco {
+      color: #15487d;
+    }
+
+    .termos {
+      display: flex;
+      align-items: center;
+
+      .text {
+        font-size: 1.2rem;
+        color: $color-black-light;
+        margin: 0 .8rem;
+      }
+
+      .item {
+        cursor: pointer;
+        color: #15487d;
+      }
+
+    }
 
   }
 

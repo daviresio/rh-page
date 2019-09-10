@@ -1,8 +1,11 @@
 import React, { useEffect, useState } from "react"
+import { connect } from "react-redux"
+import { compose } from "redux"
+import { changeModalVisibility } from "../../store/actions/modal-actions"
 
 const transtitionDelay = OriginalComponent => {
 
-  return ({ isMounted, ...props }) => {
+  return ({ isMounted, openModal, ...props }) => {
 
     const [isActive, setActive] = useState(false)
     const [hide, setHide] = useState(false)
@@ -24,7 +27,7 @@ const transtitionDelay = OriginalComponent => {
 
 
     return (
-      isActive ? <OriginalComponent {...{ ...props, hide, show }}  /> : null
+      isActive ? <OriginalComponent onClick={()=>openModal('cadastro', true)} {...{ ...props, hide, show }}  /> : null
     )
 
   }
@@ -32,4 +35,6 @@ const transtitionDelay = OriginalComponent => {
 
 }
 
-export default transtitionDelay
+const composedFunction = compose(connect(null, dispatch => ({openModal: (target, value) => dispatch(changeModalVisibility(target, value))})), transtitionDelay)
+
+export default composedFunction
