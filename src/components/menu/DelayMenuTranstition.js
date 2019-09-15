@@ -3,7 +3,7 @@ import { connect } from "react-redux"
 import { compose } from "redux"
 import { changeModalVisibility } from "../../store/actions/modal-actions"
 
-const transtitionDelay = OriginalComponent => {
+const transtitionDelay = (OriginalComponent, time = 700) => {
 
   return ({ isMounted, openModal, ...props }) => {
 
@@ -15,13 +15,13 @@ const transtitionDelay = OriginalComponent => {
       if (isActive && !isMounted) {
         setHide(true)
         setShow(false)
-        setTimeout(() => setActive(!isActive), 700)
+        setTimeout(() => setActive(!isActive), time)
       } else if(!isActive && isMounted) {
         setTimeout(() => {
           setActive(!isActive)
           setShow(true)
           setHide(false)
-        }, 700)
+        }, time)
       }
     }, [isMounted])
 

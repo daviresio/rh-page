@@ -12,6 +12,10 @@ import CarrouselItem from "../components/carrousel/CarrouselItem"
 const IndexPage = () => {
 
 
+  const imgLastCarrosel = [
+    <img src={require("../assets/images/menu-images/depoimento-1.jpg")} />,
+    <img src={require("../assets/images/menu-images/depoimento-2.jpg")} />,
+  ]
   return (
     <Layout>
       <SEO pageTitle="Software para Gestao de RH - Teste Gratis!"
@@ -62,10 +66,10 @@ const IndexPage = () => {
 
           <Carrousel>
             <CarrouselItem title={'A gente utiliza o Conta Azul para tomada de decisões e auxiliar nossa empresa no processo de gestão'}
-                           description={'Marcos Sebben - Design Inverso'} img={require("../assets/images/menu-images/depoimento-1.jpg")} />
+                           description={'Nome Usuario - Nome Empresa'} img={imgLastCarrosel[0]} />
 
             <CarrouselItem title={'Uma ferramenta chave na tomada de decisão é o fluxo de caixa, que mostra facilmente a saúde da empresa'}
-                           description={'Daniel Maia - Mostarda Studio'} img={require("../assets/images/menu-images/depoimento-2.jpg")} />
+                           description={'Nome Usuario - Nome Empresa'} img={imgLastCarrosel[1]} />
           </Carrousel>
 
         </section>

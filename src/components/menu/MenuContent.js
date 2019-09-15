@@ -18,7 +18,7 @@ const MenuContent = ({ title, subtitle, content, img, hide, show, onClick }) => 
           <button className={"button button-active"} onClick={onClick}>Teste gratis</button>
         </div>
       </div>
-        <img src={img}/>
+        {img}
     </div>
   )
 }

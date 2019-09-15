@@ -2,38 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b6e054d-8d68-401b-9a08-51d31ccf891e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.dockerignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/documentos.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/menu-images/depoimento-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/menu-images/depoimento-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/menu-images/img-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/menu-images/img-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/menu-images/img-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/menu-images/img-4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/menu-images/img-5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/treinamentos.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/carrousel/Carrousel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/carrousel/CarrouselItem.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/carrousel/contentTransition.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modal/Demonstracao.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/components/_card.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/components/_carrosel.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/carrousel/CarrouselItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/carrousel/CarrouselItem.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/menu/DelayMenuTranstition.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/menu/DelayMenuTranstition.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/menu/Menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/menu/Menu.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/menu/MenuContent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/menu/MenuContent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/Footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/Modais.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/Modais.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/SEO.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/SEO.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/header.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/reducers/modal-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducers/modal-reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/abstract/_base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/abstract/_base.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/layout/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/layout/_footer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/pages/_home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/pages/_home.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/components/_carrosel.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/components/_carrosel.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -48,11 +23,11 @@
     <splitter split-orientation="horizontal" split-proportion="0.6566314">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/pages/index.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="825">
-                  <caret line="64" column="90" selection-start-line="64" selection-start-column="90" selection-end-line="64" selection-end-column="90" />
+                <state relative-caret-position="86">
+                  <caret line="47" column="12" selection-start-line="47" selection-start-column="12" selection-end-line="47" selection-end-column="12" />
                 </state>
               </provider>
             </entry>
@@ -60,8 +35,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/components/carrousel/Carrousel.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="435">
-                  <caret line="29" column="2" selection-start-line="29" selection-start-column="2" selection-end-line="29" selection-end-column="2" />
+                <state relative-caret-position="30">
+                  <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
                 </state>
               </provider>
             </entry>
@@ -69,44 +44,11 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/components/carrousel/CarrouselItem.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="60">
-                  <caret line="5" column="28" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="28" />
+                <state relative-caret-position="165">
+                  <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
                   <folding>
                     <element signature="e#0#25#0" expanded="true" />
                   </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/modal/Cadastro.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="285">
-                  <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
-                  <folding>
-                    <element signature="e#0#50#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/modal/ModalCadastroStep1.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="474">
-                  <caret line="45" selection-start-line="45" selection-end-line="45" />
-                  <folding>
-                    <element signature="e#0#25#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/components/carrousel/contentTransition.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="15">
-                  <caret line="1" selection-start-line="1" selection-end-line="1" />
                 </state>
               </provider>
             </entry>
@@ -114,22 +56,10 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/components/menu/DelayMenuTranstition.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="60">
-                  <caret line="7" column="21" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="21" />
+                <state relative-caret-position="210">
+                  <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
                   <folding>
                     <element signature="e#0#50#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/components/menu/MenuContent.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="120">
-                  <caret line="9" selection-start-line="9" selection-end-line="9" />
-                  <folding>
-                    <element signature="e#0#25#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -138,10 +68,22 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/components/menu/Menu.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="255">
-                  <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+                <state relative-caret-position="795">
+                  <caret line="57" column="61" selection-start-line="57" selection-start-column="61" selection-end-line="57" selection-end-column="61" />
                   <folding>
                     <element signature="e#0#39#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/components/menu/MenuContent.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="285">
+                  <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+                  <folding>
+                    <element signature="e#0#25#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -154,8 +96,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/styles/components/_carrosel.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="564">
-                  <caret line="97" selection-start-line="97" selection-end-line="97" />
+                <state relative-caret-position="495">
+                  <caret line="81" column="29" selection-start-line="81" selection-start-column="29" selection-end-line="81" selection-end-column="29" />
                 </state>
               </provider>
             </entry>
@@ -282,8 +224,6 @@
         <option value="$PROJECT_DIR$/src/pages/login.js" />
         <option value="$PROJECT_DIR$/src/layout/Footer.js" />
         <option value="$PROJECT_DIR$/src/styles/layout/_footer.scss" />
-        <option value="$PROJECT_DIR$/src/components/menu/MenuContent.js" />
-        <option value="$PROJECT_DIR$/src/components/menu/DelayMenuTranstition.js" />
         <option value="$PROJECT_DIR$/src/store/reducers/modal-reducer.js" />
         <option value="$PROJECT_DIR$/src/layout/header.js" />
         <option value="$PROJECT_DIR$/src/layout/Modais.js" />
@@ -297,13 +237,15 @@
         <option value="$PROJECT_DIR$/src/styles/abstract/_base.scss" />
         <option value="$PROJECT_DIR$/src/components/clientes/Carrousel.js" />
         <option value="$PROJECT_DIR$/src/styles/index.scss" />
-        <option value="$PROJECT_DIR$/src/components/menu/Menu.js" />
-        <option value="$PROJECT_DIR$/src/pages/index.js" />
         <option value="$PROJECT_DIR$/src/styles/pages/_home.scss" />
         <option value="$PROJECT_DIR$/src/components/carrousel/contentTransition.js" />
-        <option value="$PROJECT_DIR$/src/components/carrousel/CarrouselItem.js" />
-        <option value="$PROJECT_DIR$/src/styles/components/_carrosel.scss" />
         <option value="$PROJECT_DIR$/src/components/carrousel/Carrousel.js" />
+        <option value="$PROJECT_DIR$/src/components/menu/DelayMenuTranstition.js" />
+        <option value="$PROJECT_DIR$/src/components/carrousel/CarrouselItem.js" />
+        <option value="$PROJECT_DIR$/src/components/menu/MenuContent.js" />
+        <option value="$PROJECT_DIR$/src/components/menu/Menu.js" />
+        <option value="$PROJECT_DIR$/src/pages/index.js" />
+        <option value="$PROJECT_DIR$/src/styles/components/_carrosel.scss" />
       </list>
     </option>
   </component>
@@ -321,6 +263,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -356,7 +299,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -506,23 +448,29 @@
       <workItem from="1567822302004" duration="662000" />
       <workItem from="1567862330831" duration="598000" />
       <workItem from="1567994554879" duration="294000" />
+      <workItem from="1568082426238" duration="168000" />
+      <workItem from="1568128530327" duration="610000" />
+      <workItem from="1568301799177" duration="2834000" />
+      <workItem from="1568332727647" duration="4000" />
+      <workItem from="1568337444865" duration="1800000" />
+      <workItem from="1568373390199" duration="6000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="202562000" />
+    <option name="totallyTimeSpent" value="207984000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1460" y="1" width="2560" height="1024" extended-state="2" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26632166" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28065288" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32882884" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.25056434" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.25056434" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -531,7 +479,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.2977528" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.24071991" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.24013528" />
       <window_info anchor="bottom" id="GraphQL" order="12" weight="0.32941177" />
       <window_info anchor="bottom" id="TypeScript" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -957,73 +905,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
-          <caret line="64" column="90" selection-start-line="64" selection-start-column="90" selection-end-line="64" selection-end-column="90" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/carrousel/Carrousel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="2" selection-start-line="29" selection-start-column="2" selection-end-line="29" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/carrousel/CarrouselItem.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" column="28" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/modal/Cadastro.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
           <folding>
             <element signature="e#0#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/carrousel/contentTransition.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/menu/DelayMenuTranstition.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="7" column="21" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/menu/MenuContent.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/menu/Menu.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1038,10 +925,71 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/carrousel/contentTransition.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="47" column="12" selection-start-line="47" selection-start-column="12" selection-end-line="47" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/carrousel/Carrousel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/carrousel/CarrouselItem.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/menu/DelayMenuTranstition.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/menu/Menu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="795">
+          <caret line="57" column="61" selection-start-line="57" selection-start-column="61" selection-end-line="57" selection-end-column="61" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/menu/MenuContent.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/styles/components/_carrosel.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="564">
-          <caret line="97" selection-start-line="97" selection-end-line="97" />
+        <state relative-caret-position="495">
+          <caret line="81" column="29" selection-start-line="81" selection-start-column="29" selection-end-line="81" selection-end-column="29" />
         </state>
       </provider>
     </entry>

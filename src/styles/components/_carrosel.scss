@@ -52,22 +52,22 @@
 }
 
 .carrosel-content-hide {
-  transform: translateX(-100%);
-  transition: all .6s;
+  //transform: translateX(2rem);
+  //transition: all .6s;
+  animation: carroselOutRight .8s forwards;
 }
 .carrosel-content-show {
-  transform: translateX(100%);
-  transition: all .6s;
+  animation: carroselInRight .8s forwards;
 }
 
 @keyframes carroselInRight {
 
   0% {
-
+  transform: translateX(100%);
   }
 
   100% {
-
+  transform: translateX(0);
   }
 
 }
@@ -75,11 +75,11 @@
 @keyframes carroselOutRight {
 
   0% {
-
+    transform: translateX(0);
   }
 
   100% {
-
+    transform: translateX(-100%);
   }
 
 }

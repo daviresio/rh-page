@@ -10,10 +10,10 @@ const CarrouselItem = ({title, img, description, hide, show}) => {
   return (
     <div className={cssClasses}>
       <div className={'title'}>{title}</div>
-      <img src={img} alt=""/>
+      {img}
       <div className={'description'}>{description}</div>
     </div>
   )
 }
 
-export default contentTransition(CarrouselItem)
+export default contentTransition(CarrouselItem, 300)

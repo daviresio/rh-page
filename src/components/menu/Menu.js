@@ -19,6 +19,14 @@ const Menu = ({ children }) => {
     selectItem(i === 5 ? 1 : i + 1)
   }
 
+  const images = [
+    <img src={require("../../assets/images/menu-images/img-1.png")} />,
+    <img src={require("../../assets/images/menu-images/img-2.png")} />,
+    <img src={require("../../assets/images/menu-images/img-3.png")} />,
+    <img src={require("../../assets/images/menu-images/img-4.png")} />,
+    <img src={require("../../assets/images/menu-images/img-5.png")} />
+  ]
+
   return (
     <>
       <div className={"menu"}>
@@ -37,17 +45,17 @@ const Menu = ({ children }) => {
         <ItemMenu checked={itemActive === 5} onClick={() => selectItem(5)} title={"Comunicacao"} icon={"comment"}
                   change={() => change(5)}/>
       </div>
-      <MenuContent isMounted={itemActive === 1} img={require("../../assets/images/menu-images/img-1.png")} title={"Departamento pessoal"}
+      <MenuContent isMounted={itemActive === 1} img={images[0]} title={"Departamento pessoal"}
                          subtitle={"Aumente a produtividade do seu DP"}
                          content={"Software de RH online e na nuvem, automatiza funcoes operacionais e burocraticas, promove ganhos de produtividade e eficiencia"} />
-      <MenuContent isMounted={itemActive === 2} img={require("../../assets/images/menu-images/img-2.png")} title={"Folha de pagamento"}
+      <MenuContent isMounted={itemActive === 2} img={images[1]} title={"Folha de pagamento"}
                          subtitle={"Equipe especializada online"} content={"Tenha suporte online sempre que precisar para reduzir ao maximo os erros"} />
-      <MenuContent isMounted={itemActive === 3} img={require("../../assets/images/menu-images/img-3.png")} title={"Beneficios corporativos"}
+      <MenuContent isMounted={itemActive === 3} img={images[2]} title={"Beneficios corporativos"}
                          subtitle={"Automatize os beneficios da sua empresa"} content={"Torne mais facil a compra e movimentacao de funcionarios em todo o seu pacote de beneficios"} />
-      <MenuContent isMounted={itemActive === 4} img={require("../../assets/images/menu-images/img-4.png")} title={"Automatizacao"}
+      <MenuContent isMounted={itemActive === 4} img={images[3]} title={"Automatizacao"}
                          subtitle={"Diga adeus a terafas repetitivas"}
                          content={"Todos os eventos teram lembretes para auxiliar na sua rotina, e emails sao disparados automaticamente te poupando de tarefas repetitivas"} />
-      <MenuContent isMounted={itemActive === 5} img={require("../../assets/images/menu-images/img-5.png")} title={"Comunicacao"} subtitle={"Sua empresa unida"}
+      <MenuContent isMounted={itemActive === 5} img={images[4]} title={"Comunicacao"} subtitle={"Sua empresa unida"}
                          content={"Envie recados para toda a equipe de forma pratica e facil, e tenha um chat para facilitar a comunicacao da equipe do RH"} />
 
     </>
