@@ -15,8 +15,8 @@ api que consome uma fila do rabbitMQ e processa eventos e atende algumas chamada
 https://github.com/daviresio/rh-server-relatorio
 
 
-caso queira rodar a aplicacao em sua maquina execute primeiro as duas apis e os 2 clientes web
+caso queira rodar a aplicacao em sua maquina execute primeiro as 2 apis e os 2 clientes web
 
 depois acesse a pagina statica do gatsby em http://localhost:8000 e faca um cadastro (ou logue, caso ja exista um) 
 para ser redirecionado para o cliente web, pois `e necessario estar logado para acessa-lo visto que a api na api os registros
-sao baseados nao apenas no usuario, mas na empresa selecionada tambem
+sao baseados nao apenas no usuario, mas tambem a empresa selecionada
