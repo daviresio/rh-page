@@ -1,10 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:npm_and_yarn" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="1b6e054d-8d68-401b-9a08-51d31ccf891e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,9 +89,16 @@
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/store/actions" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
@@ -74,13 +111,6 @@
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/assets/images/menu-images" />
-      <recent name="$PROJECT_DIR$/src/layout" />
-      <recent name="$PROJECT_DIR$/src/components/menu" />
-      <recent name="$PROJECT_DIR$/src/modal" />
-      <recent name="$PROJECT_DIR$/src/styles/abstract" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/store/actions" />
       <recent name="$PROJECT_DIR$/src/assets/images/menu-images" />
@@ -88,18 +118,13 @@
       <recent name="$PROJECT_DIR$/src/assets/images" />
       <recent name="$PROJECT_DIR$/src/images" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/printscrenns" />
+      <recent name="$PROJECT_DIR$/src/assets/images/menu-images" />
+      <recent name="$PROJECT_DIR$/src/layout" />
+      <recent name="$PROJECT_DIR$/src/components/menu" />
+      <recent name="$PROJECT_DIR$/src/modal" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="js.build_tools.npm">
@@ -118,20 +143,11 @@
       <scripts>
         <script value="develop" />
       </scripts>
-      <node-interpreter value="project" />
+      <node-interpreter value="/usr/local/lib/node-v14.4.0-linux-x64/bin/node" />
+      <package-manager value="npm" />
       <envs />
       <method v="2" />
     </configuration>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="allServicesViewState">
-      <serviceView>
-        <treeState>
-          <expand />
-          <select />
-        </treeState>
-      </serviceView>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -229,23 +245,95 @@
       <workItem from="1569189098299" duration="194000" />
       <workItem from="1569375499596" duration="932000" />
       <workItem from="1569410947407" duration="4000" />
+      <workItem from="1596510316799" duration="1831000" />
+      <workItem from="1596686468221" duration="29000" />
+      <workItem from="1597185304955" duration="2586000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2198" y="147" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596510352856">
+      <screen x="1454" y="0" width="2560" height="1080" />
+    </state>
+    <state x="2198" y="147" key="#com.intellij.execution.impl.EditConfigurationsDialog/1454.0.2560.1080/4022.55.1600.900/0.95.1440.900@1454.0.2560.1080" timestamp="1596510352856" />
+    <state width="2537" height="253" key="GridCell.Tab.0.bottom" timestamp="1597200231837">
+      <screen x="1454" y="0" width="2560" height="1080" />
+    </state>
+    <state width="2537" height="253" key="GridCell.Tab.0.bottom/1454.0.2560.1080/4022.55.1600.900/0.95.1440.900@1454.0.2560.1080" timestamp="1597200231837" />
+    <state width="2537" height="253" key="GridCell.Tab.0.center" timestamp="1597200231837">
+      <screen x="1454" y="0" width="2560" height="1080" />
+    </state>
+    <state width="2537" height="253" key="GridCell.Tab.0.center/1454.0.2560.1080/4022.55.1600.900/0.95.1440.900@1454.0.2560.1080" timestamp="1597200231837" />
+    <state width="2537" height="253" key="GridCell.Tab.0.left" timestamp="1597200231836">
+      <screen x="1454" y="0" width="2560" height="1080" />
+    </state>
+    <state width="2537" height="253" key="GridCell.Tab.0.left/1454.0.2560.1080/4022.55.1600.900/0.95.1440.900@1454.0.2560.1080" timestamp="1597200231836" />
+    <state width="2537" height="253" key="GridCell.Tab.0.right" timestamp="1597200231837">
+      <screen x="1454" y="0" width="2560" height="1080" />
+    </state>
+    <state width="2537" height="253" key="GridCell.Tab.0.right/1454.0.2560.1080/4022.55.1600.900/0.95.1440.900@1454.0.2560.1080" timestamp="1597200231837" />
+    <state width="2537" height="313" key="GridCell.Tab.1.bottom" timestamp="1596512150912">
+      <screen x="1454" y="0" width="2560" height="1080" />
+    </state>
+    <state width="2537" height="313" key="GridCell.Tab.1.bottom/1454.0.2560.1080/4022.55.1600.900/0.95.1440.900@1454.0.2560.1080" timestamp="1596512150912" />
+    <state width="2537" height="313" key="GridCell.Tab.1.center" timestamp="1596512150912">
+      <screen x="1454" y="0" width="2560" height="1080" />
+    </state>
+    <state width="2537" height="313" key="GridCell.Tab.1.center/1454.0.2560.1080/4022.55.1600.900/0.95.1440.900@1454.0.2560.1080" timestamp="1596512150912" />
+    <state width="2537" height="313" key="GridCell.Tab.1.left" timestamp="1596512150912">
+      <screen x="1454" y="0" width="2560" height="1080" />
+    </state>
+    <state width="2537" height="313" key="GridCell.Tab.1.left/1454.0.2560.1080/4022.55.1600.900/0.95.1440.900@1454.0.2560.1080" timestamp="1596512150912" />
+    <state width="2537" height="313" key="GridCell.Tab.1.right" timestamp="1596512150912">
+      <screen x="1454" y="0" width="2560" height="1080" />
+    </state>
+    <state width="2537" height="313" key="GridCell.Tab.1.right/1454.0.2560.1080/4022.55.1600.900/0.95.1440.900@1454.0.2560.1080" timestamp="1596512150912" />
+    <state width="2537" height="313" key="GridCell.Tab.2.bottom" timestamp="1596512150912">
+      <screen x="1454" y="0" width="2560" height="1080" />
+    </state>
+    <state width="2537" height="313" key="GridCell.Tab.2.bottom/1454.0.2560.1080/4022.55.1600.900/0.95.1440.900@1454.0.2560.1080" timestamp="1596512150912" />
+    <state width="2537" height="313" key="GridCell.Tab.2.center" timestamp="1596512150912">
+      <screen x="1454" y="0" width="2560" height="1080" />
+    </state>
+    <state width="2537" height="313" key="GridCell.Tab.2.center/1454.0.2560.1080/4022.55.1600.900/0.95.1440.900@1454.0.2560.1080" timestamp="1596512150912" />
+    <state width="2537" height="313" key="GridCell.Tab.2.left" timestamp="1596512150912">
+      <screen x="1454" y="0" width="2560" height="1080" />
+    </state>
+    <state width="2537" height="313" key="GridCell.Tab.2.left/1454.0.2560.1080/4022.55.1600.900/0.95.1440.900@1454.0.2560.1080" timestamp="1596512150912" />
+    <state width="2537" height="313" key="GridCell.Tab.2.right" timestamp="1596512150912">
+      <screen x="1454" y="0" width="2560" height="1080" />
+    </state>
+    <state width="2537" height="313" key="GridCell.Tab.2.right/1454.0.2560.1080/4022.55.1600.900/0.95.1440.900@1454.0.2560.1080" timestamp="1596512150912" />
+    <state width="2537" height="313" key="GridCell.Tab.3.bottom" timestamp="1596512150912">
+      <screen x="1454" y="0" width="2560" height="1080" />
+    </state>
+    <state width="2537" height="313" key="GridCell.Tab.3.bottom/1454.0.2560.1080/4022.55.1600.900/0.95.1440.900@1454.0.2560.1080" timestamp="1596512150912" />
+    <state width="2537" height="313" key="GridCell.Tab.3.center" timestamp="1596512150912">
+      <screen x="1454" y="0" width="2560" height="1080" />
+    </state>
+    <state width="2537" height="313" key="GridCell.Tab.3.center/1454.0.2560.1080/4022.55.1600.900/0.95.1440.900@1454.0.2560.1080" timestamp="1596512150912" />
+    <state width="2537" height="313" key="GridCell.Tab.3.left" timestamp="1596512150912">
+      <screen x="1454" y="0" width="2560" height="1080" />
+    </state>
+    <state width="2537" height="313" key="GridCell.Tab.3.left/1454.0.2560.1080/4022.55.1600.900/0.95.1440.900@1454.0.2560.1080" timestamp="1596512150912" />
+    <state width="2537" height="313" key="GridCell.Tab.3.right" timestamp="1596512150912">
+      <screen x="1454" y="0" width="2560" height="1080" />
+    </state>
+    <state width="2537" height="313" key="GridCell.Tab.3.right/1454.0.2560.1080/4022.55.1600.900/0.95.1440.900@1454.0.2560.1080" timestamp="1596512150912" />
   </component>
 </project>
